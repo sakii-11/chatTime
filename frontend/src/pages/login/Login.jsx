@@ -24,7 +24,7 @@ const Login = () => {
 				<form onSubmit={handleSubmit}>
 					<div>
 						<label className='label p-2'>
-							<span className='text-base text-white'>Username</span>
+							<span className='text-base block text-white text-sm font-bold mb-2'>Username</span>
 						</label>
 						<input
 							type='text'
@@ -37,7 +37,7 @@ const Login = () => {
 
 					<div>
 						<label className='label'>
-							<span className='text-base text-white'>Password</span>
+							<span className='text-base block text-white text-sm font-bold mb-2'>Password</span>
 						</label>
 						<input
 							type='password'
@@ -47,7 +47,7 @@ const Login = () => {
 							onChange={(e) => setPassword(e.target.value)}
 						/>
 					</div>
-					<Link to='/signup' className='text-sm  hover:underline hover:text-blue-600 mt-2 inline-block'>
+					<Link to='/signup' className='text-sm  hover:underline hover:text-blue-600 mt-2 inline-block text-white'>
 						{"Don't"} have an account?
 					</Link>
 
