@@ -33,7 +33,7 @@ const SignUp = () => {
 				<form onSubmit={handleSubmit}>
 					<div>
 						<label className='label p-2'>
-							<span className='text-base text-white'>Full Name</span>
+							<span className='block text-white text-sm font-bold mb-2'>Full Name</span>
 						</label>
 						<input
 							type='text'
@@ -46,7 +46,7 @@ const SignUp = () => {
 
 					<div>
 						<label className='label p-2 '>
-							<span className='text-base label-text'>Username</span>
+							<span className='text-base block text-white text-sm font-bold mb-2'>Username</span>
 						</label>
 						<input
 							type='text'
@@ -59,7 +59,7 @@ const SignUp = () => {
 
 					<div>
 						<label className='label'>
-							<span className='text-base text-white'>Password</span>
+							<span className='text-base block text-white text-sm font-bold mb-2'>Password</span>
 						</label>
 						<input
 							type='password'
@@ -72,7 +72,7 @@ const SignUp = () => {
 
 					<div>
 						<label className='label'>
-							<span className='text-base text-white'>Confirm Password</span>
+							<span className='text-base block text-white text-sm font-bold mb-2'>Confirm Password</span>
 						</label>
 						<input
 							type='password'
@@ -87,7 +87,7 @@ const SignUp = () => {
 
 					<Link
 						to={"/login"}
-						className='text-sm hover:underline hover:text-blue-600 mt-2 inline-block'
+						className='text-sm hover:underline hover:text-blue-600 mt-2 inline-block text-white'
 						href='#'
 					>
 						Already have an account?
