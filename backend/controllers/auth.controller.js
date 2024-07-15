@@ -22,8 +22,8 @@ export const signup = async (req, res) => {
 
 		// https://avatar-placeholder.iran.liara.run/
 
-		const boyProfilePic = `mern-chat-app\chatTime1\backend\assests\boy.png`;
-		const girlProfilePic = `mern-chat-app\chatTime1\backend\assests\woman.png`;
+		const boyProfilePic = `mern-chat-app\chatTime\backend\assests\boy.png`;
+		const girlProfilePic = `mern-chat-app\chatTime\backend\assests\woman.png`;
 
 		const newUser = new User({
 			fullName,
